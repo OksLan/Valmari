@@ -1,0 +1,81 @@
+@import "vendor/normalize";
+@import "common/mixins";
+@import "common/fonts";
+@import "common/variables";
+
+/* BLOCKS */
+@import "blocks/hero";
+@import "blocks/nav";
+@import "blocks/aside";
+@import "blocks/main-content";
+@import "blocks/footer";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Gilroy", "Arial", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  overflow-x: hidden;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  display: block;
+}
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  border: 0;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  position: absolute;
+  overflow: hidden;
+}
+
+.tagline {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 100%;
+  letter-spacing: 6px;
+  color: #fbd784;
+  position: relative;
+  left: 104px;
+  padding: 2px 0;
+
+  &::before {
+    position: absolute;
+    content: "";
+    width: 72px;
+    height: 2px;
+    left: -104px;
+    top: 10px;
+    background-color: #fbd784;
+  }
+}
+
+h3 {
+  font-family: Chronicle-Display;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 100%;
+}
