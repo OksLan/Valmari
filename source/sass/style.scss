@@ -4,10 +4,17 @@
 @import "common/variables";
 
 /* BLOCKS */
-@import "blocks/hero";
+@import "blocks/header";
 @import "blocks/nav";
-@import "blocks/aside";
-@import "blocks/main-content";
+@import "blocks/figures";
+@import "blocks/courses";
+@import "blocks/about";
+@import "blocks/training";
+@import "blocks/models";
+@import "blocks/master-classes";
+@import "blocks/why-us";
+@import "blocks/offers";
+@import "blocks/callback";
 @import "blocks/footer";
 
 html {
@@ -15,7 +22,7 @@ html {
 }
 
 body {
-  font-family: "Gilroy", "Arial", sans-serif;
+  font-family: "Montserrat", "Arial", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
@@ -51,31 +58,9 @@ img {
   overflow: hidden;
 }
 
-.tagline {
-  text-transform: uppercase;
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 100%;
-  letter-spacing: 6px;
-  color: #fbd784;
-  position: relative;
-  left: 104px;
-  padding: 2px 0;
-
-  &::before {
-    position: absolute;
-    content: "";
-    width: 72px;
-    height: 2px;
-    left: -104px;
-    top: 10px;
-    background-color: #fbd784;
-  }
-}
-
-h3 {
-  font-family: Chronicle-Display;
-  font-size: 64px;
-  font-weight: 600;
-  line-height: 100%;
-}
+// h3 {
+//   font-family: Chronicle-Display;
+//   font-size: 64px;
+//   font-weight: 600;
+//   line-height: 100%;
+// }
