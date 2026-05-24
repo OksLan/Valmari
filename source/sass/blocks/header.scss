@@ -5,47 +5,30 @@
   gap: 20px;
 }
 
-.logo {
+.header__logo {
   display: flex;
   align-items: center;
-  gap: 16px;
-
-  color: inherit;
-}
-
-.logo__image {
-  flex-shrink: 0;
-}
-
-.logo__text {
-  display: flex;
-  flex-direction: column;
-}
-
-.logo__title {
-  font-size: 24px;
-  font-weight: 700;
-}
-
-.logo__description {
-  max-width: 240px;
-
-  font-size: 14px;
-  line-height: 1.3;
+  margin-top: 12px;
 }
 
 .header__contacts {
   display: flex;
   align-items: center;
-  gap: 24px;
+  gap: 66px;
 }
 
 .header__phone {
+  display: flex;
+  align-items: center;
+  gap: 22px;
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 26px;
+  color: #424242;
 }
 
-.socials {
+.header__socials {
   display: flex;
   align-items: center;
   gap: 12px;
