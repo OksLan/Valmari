@@ -8,7 +8,6 @@
 .header__logo {
   display: flex;
   align-items: center;
-  margin-top: 12px;
 }
 
 .header__contacts {
@@ -21,11 +20,10 @@
   display: flex;
   align-items: center;
   gap: 22px;
-  font-size: 18px;
   font-weight: 500;
   font-size: 25px;
   line-height: 26px;
-  color: #424242;
+  color:  $text;
 }
 
 .header__socials {
@@ -41,12 +39,14 @@
 .nav__list {
   display: flex;
   align-items: center;
-  gap: 40px;
+  justify-content: space-between;
 }
 
 .nav__link {
   font-size: 16px;
+  line-height: 26px;
   font-weight: 500;
+  color: $text;
 }
 
 .header__burger {
