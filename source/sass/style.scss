@@ -4,18 +4,18 @@
 @import "common/variables";
 
 /* BLOCKS */
-// @import "blocks/header";
-// @import "blocks/nav";
-// @import "blocks/figures";
-// @import "blocks/courses";
-// @import "blocks/about";
-// @import "blocks/training";
-// @import "blocks/models";
-// @import "blocks/master-classes";
-// @import "blocks/why-us";
-// @import "blocks/offers";
-// @import "blocks/callback";
-// @import "blocks/footer";
+@import "blocks/header";
+@import "blocks/nav";
+@import "blocks/figures";
+@import "blocks/courses";
+@import "blocks/about";
+@import "blocks/training";
+@import "blocks/models";
+@import "blocks/master-classes";
+@import "blocks/why-us";
+@import "blocks/offers";
+@import "blocks/callback";
+@import "blocks/footer";
 
 html {
   scroll-behavior: smooth;
