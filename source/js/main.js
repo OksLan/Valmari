@@ -1,3 +1,4 @@
+// переключение языка
 const switcher = document.querySelector('.language-switcher');
 const button = switcher.querySelector('.language-switcher__current');
 

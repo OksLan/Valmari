@@ -28,6 +28,31 @@
   color:  $text;
 }
 
+.header__phone::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  bottom: -5px;
+  background-color: transparent;
+}
+
+.header__phone:active {
+  color: #102654;
+}
+
+.header__phone:hover {
+  color: rgba(28, 51, 116, 0.5);
+}
+
+.header__phone:focus {
+  color: #1c3374;
+}
+
+.header__phone:disabled {
+  color: #f8f9fc;
+}
+
 .header__socials {
   display: flex;
   align-items: center;
@@ -47,19 +72,6 @@
 .header__bottom {
   margin-top: 24px;
   margin-bottom: 19px;
-}
-
-.nav__list {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.nav__link {
-  font-size: 16px;
-  line-height: 26px;
-  font-weight: 500;
-  color: $text;
 }
 
 .header__burger {

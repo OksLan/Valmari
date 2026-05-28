@@ -69,24 +69,13 @@ img {
   margin-inline: auto;
 
   @media (max-width: 1439px) {
-    max-width: 960px;
-  }
-
-  @media (max-width: 999px) {
-    max-width: 644px;
   }
 
   @media (max-width: 767px) {
-    max-width: 360px;
-  }
-
-  @media (max-width: 479px) {
-    max-width: 300px;
   }
 }
 
 // переключение языка
-
 .language-switcher {
   position: relative;
 }
