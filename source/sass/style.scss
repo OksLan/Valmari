@@ -84,3 +84,68 @@ img {
     max-width: 300px;
   }
 }
+
+// переключение языка
+
+.language-switcher {
+  position: relative;
+}
+
+.language-switcher__current {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.language-switcher__flag {
+  display: block;
+  width: 41px;
+  height: 41px;
+}
+
+.language-switcher__arrow {
+  transition: transform 0.3s ease;
+}
+
+.language-switcher__list {
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 0;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition:
+    opacity 0.3s ease,
+    visibility 0.3s ease;
+}
+
+.language-switcher__link {
+  display: block;
+  transition: opacity 0.3s ease;
+}
+
+.language-switcher__link:hover {
+  opacity: 0.7;
+}
+
+.language-switcher.is-open .language-switcher__list {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.language-switcher.is-open .language-switcher__arrow {
+  transform: rotate(180deg);
+}

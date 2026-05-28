@@ -31,7 +31,12 @@
 .header__socials {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 26px;
+}
+
+.socials__item {
+  width: 28px;
+  height: 28px;
 }
 
 .header__divider {

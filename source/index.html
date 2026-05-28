@@ -62,16 +62,47 @@
           </ul>
 
           <div class="language-switcher">
-            <button class="language-switcher__current" type="button">RU</button>
+
+            <button class="language-switcher__current" type="button" aria-label="Выбор языка">
+              <img
+                class="language-switcher__flag"
+                src="img/russian.png"
+                width="41"
+                height="41"
+                alt="Русский">
+              <svg
+                class="language-switcher__arrow"
+                width="10"
+                height="6"
+                aria-hidden="true">
+                <use href="/__spritemap#sprite-dropdown"></use>
+              </svg>
+            </button>
 
             <ul class="language-switcher__list">
-              <li>
-                <button type="button">EN</button>
+
+              <li class="language-switcher__item">
+                <a class="language-switcher__link" href="#">
+                  <img
+                    class="language-switcher__flag"
+                    src="img/russian.png"
+                    width="41"
+                    height="41"
+                    alt="English">
+                </a>
               </li>
 
-              <li>
-                <button type="button">CN</button>
+              <li class="language-switcher__item">
+                <a class="language-switcher__link" href="#">
+                  <img
+                    class="language-switcher__flag"
+                    src="img/russian.png"
+                    width="41"
+                    height="41"
+                    alt="Chinese">
+                </a>
               </li>
+
             </ul>
           </div>
 
