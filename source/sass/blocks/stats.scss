@@ -1,0 +1,37 @@
+.stats {
+  position: relative;
+  top: -20px;
+  z-index: 100;
+}
+
+.stats__list {
+  position: relative;
+  top: -20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 54px 50px;
+  box-shadow: -2px 2px 20px 0px rgba(66, 66, 66, 0.15);
+  background-color: white;
+}
+
+.stats__item {
+  text-align: center;
+}
+
+.stats__value {
+  display: block;
+  margin-bottom: 8px;
+
+  font-weight: 700;
+  color: $basic-green;
+  font-size: 40px;
+  line-height: 45px;
+}
+
+.stats__text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 21px;
+  color: $text;
+}
