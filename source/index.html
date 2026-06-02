@@ -18,29 +18,36 @@
     <h1 class="visually-hidden">ValMari</h1>
 
   <header class="header">
-    <div class="container">
+    <div class="header__container">
       <div class="header__top">
 
         <button class="header__burger" type="button" aria-label="Открыть меню">
-          <span></span>
+            <svg class="header__burger-icon" width="50" height="24" aria-hidden="true">
+              <use href="/__spritemap#sprite-burger"></use>
+            </svg>
         </button>
 
-        <a class="header__logo logo" href="#">
-          <svg class="logo__image" width="226" height="63" aria-hidden="true" focusable="false">
-            <use href="/__spritemap#sprite-logo-desktop"></use>
-          </svg>
-        </a>
+      <a class="header__logo" href="/">
+        <svg class="header__logo-desktop" width="226" height="63" aria-label="Valmari">
+          <use href="/__spritemap#sprite-logo-desktop"></use>
+        </svg>
+
+        <svg class="header__logo-tabmob" width="70" height="73" aria-label="Valmari">
+          <use href="/__spritemap#sprite-logo"></use>
+        </svg>
+      </a>
 
         <div class="header__contacts">
 
-          <div class="header__phone">
-            <svg class="logo__image" width="28" height="28" aria-hidden="true" focusable="false">
-              <use href="/__spritemap#sprite-phone"></use>
-            </svg>
-            <a class="phone" href="tel:+0800508622">
-              0 (800) 508-622
-            </a>
-          </div>
+        <a class="header__phone" href="tel:+0800508622">
+          <svg class="header__phone-image" width="28" height="28" aria-hidden="true">
+            <use href="/__spritemap#sprite-phone"></use>
+          </svg>
+
+          <span class="header__phone-text">
+            0 (800) 508-622
+          </span>
+        </a>
 
           <ul class="header__socials socials">
             <li class="socials__item">
@@ -155,8 +162,7 @@
       </div>
     </div>
 
-    </div>
-  </header>
+ </header>
 
   <main class="main">
 

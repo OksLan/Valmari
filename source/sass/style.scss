@@ -68,7 +68,10 @@ img {
   max-width: 1204px;
   margin-inline: auto;
 
-  @media (max-width: 1439px) {
+  @media (max-width: 999px) {
+    width: 100%;
+    max-width: 641px;
+    margin-inline: auto;
   }
 
   @media (max-width: 767px) {
@@ -78,6 +81,10 @@ img {
 // переключение языка
 .language-switcher {
   position: relative;
+
+  @media (max-width: 999px) {
+    display: none;
+  }
 }
 
 .language-switcher__current {
