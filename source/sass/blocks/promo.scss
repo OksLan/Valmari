@@ -4,10 +4,9 @@
   height: 584px;
 
   @media (max-width: 1439px) {
+    height: 338px;
   }
 
-  @media (max-width: 767px) {
-  }
 }
 
 .promo__content {
@@ -15,11 +14,11 @@
   align-items: center;
   justify-content: space-between;
 
-  @media screen and (width >= 768px) and (width <= 1365px) {
+  @media (max-width: 1439px) {
     margin-left: 0;
   }
 
-  @media screen and (width >= 320px) and (width <= 767px) {
+  @media (max-width: 767px) {
     align-items: end;
     margin-left: 0;
   }
@@ -32,10 +31,10 @@
   max-width: 496px;
   z-index: 10;
 
-  @media screen and (width >= 768px) and (width <= 1365px) {
+  @media (max-width: 1439px) {
   }
 
-  @media screen and (width >= 320px) and (width <= 767px) {
+  @media (max-width: 767px) {
   }
 }
 
@@ -45,6 +44,14 @@
   line-height: 26px;
   color: $text;
   margin-bottom: 18px;
+
+  @media (max-width: 1439px) {
+    display: none;
+  }
+
+  @media (max-width: 767px) {
+    display: block;
+  }
 }
 
 .promo__headings-main {
@@ -55,10 +62,14 @@
   text-transform: uppercase;
   margin-bottom: 20px;
 
-  @media screen and (width >= 768px) and (width <= 1365px) {
+  @media (max-width: 1439px) {
+    font-size: 40px;
+    line-height: 40px;
+    margin-top: 38px;
+    margin-bottom: 4px;
   }
 
-  @media screen and (width >= 320px) and (width <= 767px) {
+  @media (max-width: 767px) {
   }
 }
 
@@ -68,12 +79,24 @@
   line-height: 23px;
   color: $text;
   margin-bottom: 57px;
+
+  @media (max-width: 1439px) {
+    font-size: 14px;
+    line-height: 15px;
+    max-width: 300px;
+    margin-bottom: 20px;
+  }
 }
 
 .promo__buttons {
   display: flex;
   flex-direction: row;
   gap: 20px;
+
+  @media (max-width: 1439px) {
+    flex-direction: column;
+    gap: 18px;
+  }
 }
 
 .promo__button {
@@ -84,10 +107,14 @@
   font-size: 18px;
   line-height: 26px;
 
-  @media screen and (width >= 768px) and (width <= 1365px) {
+  @media (max-width: 1439px) {
+    width: 219px;
+    height: 46px;
+    font-size: 15px;
+    line-height: 12px;
   }
 
-  @media screen and (width >= 320px) and (width <= 767px) {
+  @media (max-width: 767px) {
   }
 }
 
@@ -104,14 +131,13 @@
 
 .promo__image {
   position: relative;
-  width: 681px;
-  height: 556px;
   margin-top: 28px;
   z-index: 1;
 
-  @media screen and (width >= 768px) and (width <= 1365px) {
+  @media (max-width: 1439px) {
+    margin-top: 49px;
   }
 
-  @media screen and (width >= 320px) and (width <= 767px) {
+  @media (max-width: 767px) {
   }
 }
