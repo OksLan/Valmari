@@ -8,6 +8,10 @@
     height: 338px;
   }
 
+  @media (max-width: 767px) {
+    height: 411px;
+  }
+
 }
 
 // .promo__content {
@@ -120,6 +124,10 @@
     flex-direction: column;
     gap: 18px;
   }
+
+  @media (max-width: 1439px) {
+    gap: 8px;
+  }
 }
 
 .promo__button {
@@ -163,10 +171,13 @@
   top: 20px;
 
   @media (max-width: 1439px) {
-    right:20px;
+    right: 20px;
     top: 48px;
   }
 
   @media (max-width: 767px) {
+    bottom: 0;
+    right: unset;
+    top: unset;
   }
 }

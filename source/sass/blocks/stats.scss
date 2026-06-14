@@ -7,6 +7,11 @@
     top: 0px;
     margin-top: 30px;
   }
+
+  @media (max-width: 767px) {
+    top: -43px;
+    margin-top: unset;
+  }
 }
 
 .stats__list {
@@ -24,10 +29,23 @@
     padding-bottom: 20px;
     box-shadow: -2px 2px 5px 0px #43566420, -1px 1px 2px 0px #43464A00;
   }
+
+  @media (max-width: 767px) {
+    flex-direction: column;
+    max-width: 180px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
 }
 
 .stats__item {
   text-align: center;
+
+  @media (max-width: 767px) {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+  }
 }
 
 .stats__value {
@@ -42,6 +60,11 @@
     font-size: 25px;
     margin-bottom: 7px;
   }
+
+  @media (max-width: 767px) {
+    font-size: 17px;
+    margin-bottom: unset;
+  }
 }
 
 .stats__text {
@@ -53,5 +76,10 @@
   @media (max-width: 1439px) {
     font-size: 13px;
     line-height: 15px;
+  }
+
+  @media (max-width: 767px) {
+    font-size: 8px;
+    line-height: 10px;
   }
 }

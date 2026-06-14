@@ -66,18 +66,16 @@ img {
 .container {
   width: 100%;
   max-width: 1200px;
-  margin-inline: auto;
+  margin: 0 auto;
 
-  @media (max-width: 999px) {
+  @media (max-width: 1439px) {
     width: 100%;
     max-width: 641px;
-    margin-inline: auto;
   }
 
   @media (max-width: 767px) {
     width: 100%;
     max-width: 300px;
-    margin-inline: auto;
   }
 }
 
@@ -85,7 +83,7 @@ img {
 .language-switcher {
   position: relative;
 
-  @media (max-width: 999px) {
+  @media (max-width: 1439px) {
     display: none;
   }
 }
